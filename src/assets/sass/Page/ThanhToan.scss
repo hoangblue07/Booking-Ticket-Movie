@@ -1,0 +1,90 @@
+.trapezoid {
+    border-bottom: 100px solid gray;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+}
+.button_gheChuaDat {
+    background-color: rgb(188, 70, 70);
+    color: white;
+}
+.button_gheDaDat {
+    background-color: rgb(164, 172, 186) !important;
+    color: white !important;
+    font-size: 10px;
+    cursor: no-drop !important;
+}
+.gheBanDat {
+    background-color: rgb(0, 67, 161) !important;
+    color: white !important;
+    font-size: 10px;
+}
+.button_gheDangChon {
+    background-color: rgb(161, 0, 161) !important;
+    color: white !important;
+}
+.ghevip {
+    background-color: rgb(239, 235, 42);
+    color: white;
+}
+.thanhtoan {
+    background-color: rgb(174, 205, 231);
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    .phimbanchon {
+        .tenphim {
+            text-align: left;
+            h1 {
+                font-weight: bold;
+                font-size: 20px;
+            }
+            p {
+                font-style: italic;
+            }
+        }
+    }
+}
+.btnGhe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thongTinGhe {
+    .thuong {
+        button {
+            background-color: rgb(188, 70, 70);
+            border-radius: 5px;
+            margin-right: 5px;
+        }
+    }
+    .vip {
+        button {
+            background-color: rgb(239, 235, 42);
+            border-radius: 5px;
+            margin-right: 5px;
+        }
+    }
+    .dadat {
+        button {
+            background-color: rgb(164, 172, 186);
+            border-radius: 5px;
+            margin-right: 5px;
+        }
+    }
+    .bandat {
+        button {
+            background-color: rgb(0, 67, 161);
+            border-radius: 5px;
+            margin-right: 5px;
+        }
+    }
+    .ghedangchon {
+        button {
+            background-color: rgb(161, 0, 161);
+            border-radius: 5px;
+            margin-right: 5px;
+        }
+    }
+}

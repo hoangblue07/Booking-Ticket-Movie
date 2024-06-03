@@ -1,0 +1,32 @@
+#ChiTiet{
+    min-height: 800px;
+    background-size: auto;
+    background-position: center;
+    .lichchieu{
+        background-color: #0000009a;
+        min-height: 800px;
+        .nhom{
+           padding-top: 30px;
+            .thongtin{
+                margin-top: 5px;
+            background-color: rgb(47, 120, 120);
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            h2{
+                font-weight: bold;
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+            div button{
+                font-weight: bold;
+            }
+        }
+        }
+        .giochieu{
+            background-color: #fff;
+            border-radius: 10px;
+        }
+       
+    }
+}
